@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease;
+}
+
+.MuiPaper-root:hover {
+  border-color: #1976d2;
+}
