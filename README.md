@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Image Processing Web App
+### Một ứng dụng web hiện đại cung cấp nhiều tính năng xử lý ảnh, hỗ trợ đa ngôn ngữ, giao diện responsive và tối ưu hóa hiệu suất — được xây dựng bằng các công nghệ phổ biến trong hệ sinh thái React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Công nghệ sử dụng
+# 🖥️ Frontend Framework & Library 
+* React.js – Framework chính để xây dựng giao diện người dùng.
 
-## Available Scripts
+* TypeScript – Ngôn ngữ lập trình hỗ trợ type-checking và phát triển an toàn.
 
-In the project directory, you can run:
+* Material-UI (MUI) – Thư viện UI components hiện đại
 
-### `npm start`
+# 🖼️ Xử lý ảnh 
+* Canvas API – Xử lý và thao tác hình ảnh trực tiếp trong trình duyệt.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* react-easy-crop – Thư viện hỗ trợ crop ảnh tròn và preview trực quan.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 🌍 Đa ngôn ngữ 
+* Hỗ trợ Tiếng Anh và Tiếng Việt.
 
-### `npm test`
+* Sử dụng object translations để quản lý chuỗi văn bản.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# ✨ Tính năng xử lý ảnh 
 
-### `npm run build`
+* Split Image – Chia nhỏ ảnh thành nhiều phần.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Circle Crop – Cắt ảnh thành hình tròn.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Black & White – Chuyển ảnh sang đen trắng.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Pencil Sketch – Hiệu ứng ảnh vẽ bằng bút chì.
 
-### `npm run eject`
+* Image Conversion – Chuyển đổi định dạng ảnh.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 🖼️ Các định dạng ảnh hỗ trợ
+* JPEG, PNG, BMP, WebP, GIF, ICO
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🛠️ Công cụ phát triển
+* ESLint – Kiểm tra chất lượng mã nguồn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* TypeScript – Đảm bảo tính an toàn khi code
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* React Hooks – Sử dụng useState, useEffect, useRef, useCallback để quản lý trạng thái và logic
 
-## Learn More
+# ⚙️ Tối ưu hiệu suất 
+* Debounce cho tính năng chia ảnh
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Fade transitions cho các phần tử giao diện
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Lazy loading cho ảnh tải chậm
+
+# 🎨 Styling Hệ thống
+* Material-UI theming
+
+* CSS tùy chỉnh
